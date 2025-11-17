@@ -207,3 +207,48 @@
 
       errorDiv.innerHTML = "";
       outputDiv.innerHTML = "";
+
+      if (name === "" || email === "" || pass === "" || conf === "") {
+        alert("All fields are required.");
+        errorDiv.innerHTML = "All fields are required.";
+        return false;
+      }
+
+      if (email.includes("@") === false) {
+        alert("Email must contain '@'.");
+        errorDiv.innerHTML = "Email must contain '@'.";
+        return false;
+      }
+
+      if (pass !== conf) {
+        alert("Password and Confirm Password must match.");
+        errorDiv.innerHTML = "Password and Confirm Password must match.";
+        return false;
+      }
+
+      outputDiv.innerHTML =
+        "<strong>Registration Successful!</strong><br><br>" +
+        "Name: " + name + "<br>" +
+        "Email: " + email;
+
+      return false;
+    }
+
+    function addCourse() {
+      var course = document.getElementById("courseName").value.trim();
+
+      if (course === "") {
+        alert("Enter a course name.");
+        return;
+      }
+
+      var li = document.createElement("li");
+      li.innerHTML = course + " <button onclick='this.parentNode.remove()'>Delete</button>";
+
+      document.getElementById("courseList").appendChild(li);
+      document.getElementById("courseName").value = "";
+    }
+  </script>
+
+</body>
+</html>
