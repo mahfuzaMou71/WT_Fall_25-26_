@@ -165,3 +165,19 @@
   <h2>American International University-Bangladesh</h2>
 
   <h3>Student Registration</h3>
+
+  <form onsubmit="return handleRegister()">
+    <label>Full Name:</label>
+    <input type="text" id="fullName">
+
+    <label>Email:</label>
+    <input type="text" id="email">
+
+    <label>Password:</label>
+    <input type="password" id="password">
+
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPassword">
+
+    <button type="submit">Register</button>
+  </form>
