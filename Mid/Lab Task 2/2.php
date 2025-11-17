@@ -90,3 +90,14 @@
       margin: 10px auto 0 auto;
       box-shadow: 0 10px 25px rgba(0,0,0,0.4);
     }
+
+    #courseName {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      border-radius: 6px;
+      border: 1px solid #475569;
+      box-sizing: border-box;
+      background-color: #020617;
+      color: #e5e7eb;
+    }
