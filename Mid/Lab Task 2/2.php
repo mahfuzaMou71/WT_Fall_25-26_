@@ -69,3 +69,15 @@
       text-align: center;
       font-size: 14px;
     }
+
+    #regOutput {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 16px;
+      color: #bbf7d0;
+    }
+
+    #courseSection {
+      margin-top: 40px;
+      text-align: center;
+    }
