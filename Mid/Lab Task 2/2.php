@@ -194,3 +194,16 @@
       <ul id="courseList"></ul>
     </div>
   </div>
+
+  <script>
+    function handleRegister() {
+      var name = document.getElementById("fullName").value.trim();
+      var email = document.getElementById("email").value.trim();
+      var pass = document.getElementById("password").value;
+      var conf = document.getElementById("confirmPassword").value;
+
+      var errorDiv = document.getElementById("regError");
+      var outputDiv = document.getElementById("regOutput");
+
+      errorDiv.innerHTML = "";
+      outputDiv.innerHTML = "";
