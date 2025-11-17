@@ -62,3 +62,10 @@
     button:hover {
       background-color: #ea580c;
     }
+
+    #regError {
+      margin-top: 10px;
+      color: #fecaca;
+      text-align: center;
+      font-size: 14px;
+    }
