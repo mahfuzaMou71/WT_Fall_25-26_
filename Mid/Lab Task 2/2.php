@@ -130,3 +130,15 @@
       margin-top: 15px;
       text-align: left;
     }
+
+    #courseList li {
+      margin-bottom: 8px;
+      padding: 6px 8px;
+      background-color: #020617;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #1f2937;
+      font-size: 14px;
+    }
