@@ -40,3 +40,9 @@
       background-color: #020617;
       color: #e5e7eb;
     }
+
+    input:focus {
+      outline: none;
+      border-color: #f97316;
+      box-shadow: 0 0 0 1px #f97316;
+    }
