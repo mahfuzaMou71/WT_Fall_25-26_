@@ -181,3 +181,16 @@
 
     <button type="submit">Register</button>
   </form>
+
+  <div id="regError"></div>
+  <div id="regOutput"></div>
+
+  <div id="courseSection">
+    <h3>Course Selection</h3>
+    <div id="courseBox">
+      <label>Course Name:</label>
+      <input type="text" id="courseName">
+      <button id="courseButton" onclick="addCourse()">Add Course</button>
+      <ul id="courseList"></ul>
+    </div>
+  </div>
