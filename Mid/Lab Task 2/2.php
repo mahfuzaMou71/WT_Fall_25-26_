@@ -107,3 +107,19 @@
       border-color: #38bdf8;
       box-shadow: 0 0 0 1px #38bdf8;
     }
+
+    #courseButton {
+      width: 100%;
+      padding: 9px;
+      margin-top: 14px;
+      border-radius: 6px;
+      border: none;
+      background-color: #38bdf8;
+      color: #020617;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    #courseButton:hover {
+      background-color: #0ea5e9;
+    }
