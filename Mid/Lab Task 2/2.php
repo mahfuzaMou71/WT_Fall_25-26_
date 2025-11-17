@@ -46,3 +46,19 @@
       border-color: #f97316;
       box-shadow: 0 0 0 1px #f97316;
     }
+
+    button {
+      width: 100%;
+      padding: 9px;
+      margin-top: 14px;
+      border-radius: 6px;
+      border: none;
+      background-color: #f97316;
+      color: #0b1120;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #ea580c;
+    }
