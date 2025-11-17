@@ -158,3 +158,10 @@
     #courseList button:hover {
       background-color: #fca5a5;
     }
+  </style>
+</head>
+<body>
+
+  <h2>American International University-Bangladesh</h2>
+
+  <h3>Student Registration</h3>
