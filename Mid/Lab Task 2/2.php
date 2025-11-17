@@ -142,3 +142,19 @@
       border: 1px solid #1f2937;
       font-size: 14px;
     }
+
+    #courseList button {
+      width: auto;
+      padding: 4px 10px;
+      margin-left: 10px;
+      border-radius: 4px;
+      border: 1px solid #b91c1c;
+      background-color: #fecaca;
+      color: #7f1d1d;
+      cursor: pointer;
+      font-weight: normal;
+    }
+
+    #courseList button:hover {
+      background-color: #fca5a5;
+    }
