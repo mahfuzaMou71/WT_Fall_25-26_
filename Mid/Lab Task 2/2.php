@@ -123,3 +123,10 @@
     #courseButton:hover {
       background-color: #0ea5e9;
     }
+
+    #courseList {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 15px;
+      text-align: left;
+    }
