@@ -101,3 +101,9 @@
       background-color: #020617;
       color: #e5e7eb;
     }
+
+    #courseName:focus {
+      outline: none;
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 1px #38bdf8;
+    }
